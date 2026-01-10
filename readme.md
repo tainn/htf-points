@@ -1,6 +1,6 @@
 # htf-points
 
-bzflag plugin for awarding points in the hold-the-flag mode
+bzflag plugin awarding points in the hold-the-flag mode
 
 ## funct
 
