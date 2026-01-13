@@ -1,13 +1,13 @@
 # htf-points
 
-bzflag plugin awarding points in the hold-the-flag mode
+BZFlag plugin awarding points in the Hold the Flag mode
 
-## funct
+## Funct
 
-- awards a player-win upon capturing their own team flag
-- awards a team-win instead of a loss upon having their flag captured
+- awards a `playerWin` upon capturing their own team flag
+- awards a `teamWin` instead of a `teamLoss` upon having their flag captured
 
-## use
+## Use
 
 ```sh
 -loadplugin HtfPoints.so
