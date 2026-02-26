@@ -1,11 +1,11 @@
 # htf-points
 
-BZFlag plugin awarding points in the Hold the Flag mode
+Awards points in the Hold-the-Flag mode
 
-## Funct
+## Function
 
-- awards a `playerWin` upon capturing their own team flag
-- awards a `teamWin` instead of a `teamLoss` upon having their flag captured
+- Increments `playerWin` to a player upon them capturing their own team flag
+- Increments `teamWin` instead of `teamLoss` to a team upon them having their flag captured
 
 ## Use
 
