@@ -1,6 +1,6 @@
 # htf-points
 
-Awards points in the Hold-the-Flag mode
+Awards points in the Hold the Flag mode
 
 ## Function
 
