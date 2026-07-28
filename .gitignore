@@ -3,5 +3,5 @@
 *.iml
 
 # compile
-*.so
-cmake-build-debug
+compile
+plugins
