@@ -1,15 +1,17 @@
 #include "bzfsAPI.h"
 
-class HtfPoints : public bz_Plugin {
-public:
-  const char *Name() override;
+namespace {
+  class HtfPoints : public bz_Plugin {
+  public:
+    const char *Name() override;
 
-  void Init(const char *config) override;
+    void Init(const char *config) override;
 
-  void Cleanup() override;
+    void Cleanup() override;
 
-  void Event(bz_EventData *eventData) override;
-};
+    void Event(bz_EventData *eventData) override;
+  };
+}
 
 BZ_PLUGIN(HtfPoints)
 
