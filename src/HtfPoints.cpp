@@ -16,7 +16,7 @@ namespace {
 BZ_PLUGIN(HtfPoints)
 
 const char *HtfPoints::Name() {
-  return "HtfPoints 0.1.0";
+  return "HtfPoints 0.1.3";
 }
 
 void HtfPoints::Init(const char *config) {
